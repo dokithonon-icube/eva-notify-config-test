@@ -1,4 +1,8 @@
 {
   "defaultMessage": "alarme1234",
-  "appendToAllSMS": "// sent by EVA - do not reply"
+  "appendToAllSMS": "// sent by EVA - do not reply",
+  "dispatching": [
+    {"tag": "Alarm1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch"},
+    {"tag": "Alarm2", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch"}
+  ]
 }
