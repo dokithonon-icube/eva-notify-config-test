@@ -3,6 +3,7 @@
   "appendToAllSMS": "// sent by EVA - do not reply",
   "dispatching": [
     {"tag": "Alarm1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch"},
-    {"tag": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com"}
+    {"tag": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com"},
+    {"tag": "Alarm3", "channel": "sms", "to": "41768173346"}
   ]
 }
