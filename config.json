@@ -1,3 +1,4 @@
 {
-"defaultMessage": "alarme1234"
+  "defaultMessage": "alarme1234",
+  "appendToAllSMS": "sent by EVA"
 }
