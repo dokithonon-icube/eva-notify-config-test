@@ -2,10 +2,10 @@
   "defaultMessage": "alarme1234",
   "appendToAllSMS": "// sent by EVA - do not reply",
   "dispatching": [
-    {"tag": "Alarm1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch"},
-    {"tag": "Alarm1", "channel": "sms", "to": "41768173346"},
-    {"tag": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com"},
-    {"tag": "Alarm3", "channel": "sms", "to": "41768173346"},
-    {"tag": "Alarm4", "channel": "voicecall", "to": "41768173346"}
+    {"tag": "Alarm1", "severity": "1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch"},
+    {"tag": "Alarm1", "severity": "1", "channel": "sms", "to": "41768173346"},
+    {"tag": "Alarm2", "severity": "1", "channel": "email", "to": "dokithonon@gmail.com"},
+    {"tag": "Alarm3", "severity": "1", "channel": "sms", "to": "41768173346"},
+    {"tag": "Alarm4", "severity": "1", "channel": "voicecall", "to": "41768173346"}
   ]
 }
