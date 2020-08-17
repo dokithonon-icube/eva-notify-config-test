@@ -1,10 +1,10 @@
 [
   {
     "alarmId": "Alarm1",
-    "timestamp": 1597655372896,
+    "timestamp": 1597655372896
   },
   {
     "alarmId": "Alarm2",
-    "timestamp": 1597655372100,
-  },
+    "timestamp": 1597655372100
+  }
 ]
