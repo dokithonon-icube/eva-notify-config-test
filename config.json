@@ -2,10 +2,10 @@
   "defaultMessage": "alarme1234",
   "appendToAllSMS": "// sent by EVA - do not reply",
   "dispatching": [
-    {"alarmId": "Alarm1", "severity": "1", "text": "Alarm1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "09:00", "end":"23:59", "active": true},
-    {"alarmId": "Alarm1", "severity": "1", "text": "Alarm1", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmId": "Alarm2", "severity": "1", "text": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmId": "Alarm3", "severity": "1", "text": "Alarm3", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmId": "Alarm4", "severity": "1", "text": "Alarm4", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true}
+    {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "Alarm1", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "09:00", "end":"23:59", "active": true},
+    {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "severity": "error", "text": "Alarm1", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+    {"alarmPath": "Alarm2", "alarmSeverity": "error", "text": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+    {"alarmPath": "Alarm3", "alarmSeverity": "error", "text": "Alarm3", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+    {"alarmPath": "Alarm4", "alarmSeverity": "error", "text": "Alarm4", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true}
   ]
 }
