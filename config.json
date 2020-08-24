@@ -8,9 +8,15 @@
     {"alarmPath": "Alarm3", "alarmSeverity": "error", "text": "Alarm3", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
     {"alarmPath": "Alarm4", "alarmSeverity": "error", "text": "Alarm4", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true}
   ],
-  "channels": [
-    {"channel": "email", "active": false},
-    {"channel": "sms", "active": true},
-    {"channel": "voicecall", "active": true}
-  ]
+  "channels": {
+    "email": {
+      "active": false
+    },
+    "sms": {
+      "active": true 
+    },
+    "voicecall": {
+      "active": true
+    }
+  }
 }
