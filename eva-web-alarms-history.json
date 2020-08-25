@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2020-01-07T11:30:00.000000Z",
+    "timestamp": "2020-07-25T11:30:00.000000Z",
     "type": 101,
     "alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady",
     "alarmSeverity": "error"
