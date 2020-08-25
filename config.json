@@ -18,6 +18,9 @@
     },
     "voicecall": {
       "active": true
+    },
+    "aws": {
+      "active": false
     }
   }
 }
