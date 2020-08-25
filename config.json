@@ -10,7 +10,7 @@
   ],
   "channels": {
     "email": {
-      "active": false
+      "active": true
     },
     "sms": {
       "active": true 
