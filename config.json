@@ -1,4 +1,5 @@
 {
+"acw-conthey" : {
   "defaultMessage": "alarme1234",
   "appendToAllSMS": "// sent by EVA - do not reply",
   "dispatching": [
@@ -24,4 +25,5 @@
       "active": false
     }
   }
+}
 }
