@@ -3,6 +3,7 @@
     "timestamp": "2020-07-14T11:30:00.000000Z",
     "type": 101,
     "alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady",
-    "alarmSeverity": "error"
+    "alarmSeverity": "error",
+    "isTest": 1
   }
 ]
