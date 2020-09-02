@@ -1,7 +1,7 @@
 {
   "nAlarmsDispatchedAtATime": 1,
   "projects": {
-    "acw-conthey" : {
+    "un-client-icube" : {
       "defaultMessage": "alarme1234",
       "appendToAllSMS": "// sent by EVA - do not reply",
       "dispatching": [
