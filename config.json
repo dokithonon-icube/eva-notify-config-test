@@ -1,5 +1,6 @@
 {
   "nAlarmsDispatchedAtATime": 1,
+  "healthCheckEmail": "thomas.doki-thonon@icube-sa.ch",
   "projects": {
     "un-client-icube" : {
       "defaultMessage": "alarme1234",
