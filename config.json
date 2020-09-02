@@ -1,29 +1,32 @@
 {
-"acw-conthey" : {
-  "defaultMessage": "alarme1234",
-  "appendToAllSMS": "// sent by EVA - do not reply",
-  "dispatching": [
-    {"alarmPath": "Reception", "alarmPathIsRegExp": true, "alarmSeverity": "error", "text": "regExp", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "severity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "Alarm2", "alarmSeverity": "error", "text": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "Alarm3", "alarmSeverity": "error", "text": "Alarm3", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-    {"alarmPath": "Alarm4", "alarmSeverity": "error", "text": "Alarm4", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true}
-  ],
-  "channels": {
-    "email": {
-      "active": true
-    },
-    "sms": {
-      "active": true 
-    },
-    "voicecall": {
-      "active": true
-    },
-    "aws": {
-      "active": false
+  "nAlarmsDispatchedAtATime": 1,
+  "projects": {
+    "acw-conthey" : {
+      "defaultMessage": "alarme1234",
+      "appendToAllSMS": "// sent by EVA - do not reply",
+      "dispatching": [
+        {"alarmPath": "Reception", "alarmPathIsRegExp": true, "alarmSeverity": "error", "text": "regExp", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "severity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "Alarm2", "alarmSeverity": "error", "text": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "Alarm3", "alarmSeverity": "error", "text": "Alarm3", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {"alarmPath": "Alarm4", "alarmSeverity": "error", "text": "Alarm4", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true}
+      ],
+      "channels": {
+        "email": {
+          "active": true
+        },
+        "sms": {
+          "active": true 
+        },
+        "voicecall": {
+          "active": true
+        },
+        "aws": {
+          "active": false
+        }
+      }
     }
   }
-}
 }
