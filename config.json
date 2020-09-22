@@ -1,6 +1,7 @@
 {
   "nAlarmsDispatchedAtATime": 1,
   "healthCheckEmail": "thomas.doki-thonon@icube-sa.ch",
+  "ommitIfAcknowledged": true,
   "projects": {
     "un-client-icube" : {
       "defaultMessage": "alarme1234",
@@ -29,6 +30,7 @@
               "dow": [0, 1, 2, 3, 4, 5, 6],
               "start": "00:00",
               "end":"23:59",
+              "timeZone": "Europe/Zurich",
               "active": true
             },
             {
@@ -65,7 +67,7 @@
         },
         "sms": {
           "active": true,
-          "simulate": true,
+          "simulate": true
         },
         "voicecall": {
           "active": true
