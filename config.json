@@ -6,8 +6,49 @@
       "defaultMessage": "alarme1234",
       "appendToAllSMS": "// sent by EVA - do not reply",
       "dispatching": [
-        {"alarmPath": "Reception", "alarmPathIsRegExp": true, "alarmSeverity": "error", "text": "regExp", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
-        {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
+        {
+                "alarmPath": "PanneFrigo",
+                "to": "thomas.doki-thonon@icube-sa.ch"
+            },
+            {
+                "alarmPath": "ArretAutomate",
+                "channel": "sms",
+                "to": "41768173346"
+            },
+            {
+                "alarmPath": "FeuUsine",
+                "channel": "voicecall",
+                "to": "41768173346"
+            },
+            {
+              "alarmPath": "Reception",
+              "alarmPathIsRegExp": true,
+              "alarmSeverity": "error",
+              "channel": "email",
+              "to": "thomas.doki-thonon@icube-sa.ch",
+              "dow": [0, 1, 2, 3, 4, 5, 6],
+              "start": "00:00",
+              "end":"23:59",
+              "active": true
+            },
+            {
+              "alarmPath": "myAlarm",
+              "alarmSeverity": "error",
+              "channel": "snooze",
+              "snoozeHHmm": "08:00",
+               "dow": [0,1,2,3,4,5,6],
+              "start":"00:00", 
+              "end": 07:59"
+            }, 
+           {
+            "alarmPath": "myAlarm",
+             "alarmSeverity": "error",
+            "channel": "email",
+             "dow": [0,1,2,3,4,5,6],
+             "start":"08:00",
+             "end": "23:59"
+          },
+        {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "Alarme : StsAlmBalanceNotReady", "channel": "email", "to": "thomas.doki-thonon@icube-sa.ch", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
         {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "severity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "sms", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
         {"alarmPath": "plc:Program:Reception.StsAlmBalanceNotReady", "alarmSeverity": "error", "text": "plc:Program:Reception.StsAlmBalanceNotReady", "channel": "voicecall", "to": "41768173346", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
         {"alarmPath": "Alarm2", "alarmSeverity": "error", "text": "Alarm2", "channel": "email", "to": "dokithonon@gmail.com", "dow": [0, 1, 2, 3, 4, 5, 6], "start": "00:00", "end":"23:59", "active": true},
@@ -19,7 +60,8 @@
           "active": true
         },
         "sms": {
-          "active": true 
+          "active": true,
+          "simulate": true,
         },
         "voicecall": {
           "active": true
